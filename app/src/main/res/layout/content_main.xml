@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/main_background">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" />
+   </ScrollView>
+
+   <Button
+       android:layout_width="130dp"
+       android:layout_height="120dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="153dp"
+       android:background="@drawable/hexagon_button"
+       android:text="What's in         your fridge?"
+       android:textColor="#FFF"
+       android:id="@+id/button" />
+
+   <Button
+       android:layout_width="60dp"
+       android:layout_height="50dp"
+       android:layout_alignTop="@+id/button"
+       android:layout_marginEnd="18dp"
+       android:layout_marginRight="18dp"
+       android:layout_marginTop="61dp"
+       android:layout_toLeftOf="@+id/button"
+       android:layout_toStartOf="@+id/button"
+       android:background="@drawable/hexagon_button_Side"
+       android:textAllCaps="false"
+       android:text="Carrot"
+       android:textColor="#FFF" />
+
+   <Button
+       android:layout_width="60dp"
+       android:layout_height="50dp"
+       android:layout_alignTop="@+id/button"
+       android:layout_marginEnd="18dp"
+       android:layout_marginLeft="100dp"
+       android:layout_marginTop="120dp"
+        android:background="@drawable/hexagon_button_Side"
+       android:textAllCaps="false"
+       android:text="Potatoes"
+       android:textColor="#FFF" />
+
+   <Button
+       android:layout_width="60dp"
+       android:layout_height="50dp"
+       android:layout_alignTop="@+id/button"
+
+       android:layout_toLeftOf="@+id/button"
+       android:layout_toStartOf="@+id/button"
+       android:background="@drawable/hexagon_button_Side"
+       android:textAllCaps="false"
+       android:text="Carrot"
+       android:textColor="#FFF" />
+
+
+
+</RelativeLayout>
